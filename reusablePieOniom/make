@@ -1,0 +1,10 @@
+#!/usr/bin/tcsh
+
+
+#  g++ main.cpp keywords.cpp util.cpp build_frag.cpp readkey.cpp readin.cpp gen_sub.cpp  common.cpp check_job_type.cpp output.cpp goniom_run.cpp
+#g++ main.cpp keywords.cpp util.cpp build_frag.cpp readkey.cpp readin.cpp gen_sub.cpp  common.cpp check_job_type.cpp output.cpp goniom_run.cpp  -o goniom-s.x
+
+mpiCC  main-mpi.cpp keywords.cpp util-mpi.cpp build_frag.cpp readkey.cpp readin-mpi.cpp gen_sub.cpp  common.cpp check_job_type.cpp output.cpp goniom_run-mpi.cpp mpi_util.cpp  -o goniom-mpi.x 
+
+
+
